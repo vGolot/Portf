@@ -110,6 +110,7 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color: #F6F3FF;
     margin: 40px 0;
+    text-align: justify;
 }
 
 /* Habilidades*/
@@ -297,8 +298,13 @@ footer .line-footer p a{
     .section.topo-do-site{
         padding: 20px 8%;
     }
-    .topo-do-site h1{
+     .topo-do-site h1{
         font-size: 30px;
+        margin: 0 5px;
+    }
+    .topo-do-site .txt-topo-site p{
+        margin: 40px 10px;
+        text-align: justify;
     }
 
     .topo-do-site .img-topo-site img{
