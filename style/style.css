@@ -1,0 +1,346 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    background-color: #7924E0;
+}
+button:hover, form .btn-enviar input:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 8px #7924E0;
+}
+button:not(hover){
+ transition : 1s;
+}
+
+h2.titulo{
+    color: #F6F3FF;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #7924E0;
+}
+
+/*Estilo header*/
+header{
+    padding: 40px 4%;
+}
+header h4{
+    color: #F6F3FF;
+    font-size: 28px;
+}
+header h4 span{
+    color: #7924E0;
+    font-size: 28px;
+}
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #F6F3FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #C7B2FF;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+header a:not(:hover) {
+   transition: 1s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.teste{
+    display: block;
+}
+
+/*Estilo topo do site*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h1{
+    color: #F6F3FF;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: #7924E0;
+}
+.topo-do-site .txt-topo-site p{
+    color: #F6F3FF;
+    margin: 40px 0;
+}
+
+/* Habilidades*/
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: #F6F3FF;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 1s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 8px;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #7924E0;
+}
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px;
+    margin-bottom: 120px;
+}
+
+.especialidades .especialidades-box p{
+    text-align: justify;
+}
+/* Estilo Sobre*/
+.section.sobre{
+    padding: 80px 4%;
+}
+.img-sobre img{
+    width: 600px;
+    height: auto;
+    border-radius: 50%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color: #F6F3FF;
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    color: #7924E0;
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 8px;
+    background-color: #7924E0;
+}
+
+/*Estilo Portfolio*/
+section.portfolio{
+    margin-top: 40px;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px hsl(255, 12%, 20%);
+}
+section.portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #7924E0;
+}
+
+/*Estilo formulário de contato*/
+section.formulario{
+    padding: 80px 4%;
+
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(44, 39, 39);
+    border: none;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #F6F3FF;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input[type = submit]{
+    width: 120px;
+    background-color: #7924E0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+}
+/*estilo footer*/
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px hsl(255, 12%, 20%);
+}
+footer .flex{
+   justify-content: space-between; 
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+.borda{
+    border-top: 2px solid;
+    color: #7924E0;
+}
+footer .line-footer p i{
+        color: #7924E0;
+        font-size: 22px;
+}
+footer .line-footer p a{
+    color: #F6F3FF;
+}
+.logo-footer{
+    font-size: 20px;
+    color: #F6F3FF;
+}
+.logo-footer span{
+    color: #7924E0;
+}
+
+
+@media screen and (max-width: 1020px){
+    /*  Classes gerais      */
+    .flex{
+        flex-direction:column
+    }
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+    /*    Header    */
+     .btn-contato, .menu-desktop{
+        display: none;
+    }
+    header >.interface{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Topo do site*/
+    .section.topo-do-site .flex{
+        gap: 40px;
+    }
+    .section.topo-do-site{
+        padding: 20px 8%;
+    }
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /*  Habilidades   */
+    .section.sobre{
+    padding: 40px 8%;
+    height: vh100;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+    .img-sobre img{
+        width: 100%;
+    }
+    /*portfólio*/
+    section.portfolio{
+    padding: 80px 8%;
+    }
+    section.portfolio .flex{
+        gap: 60px;
+    }
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    /* rodapé */
+    footer.flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer .line-footer{
+        text-align: center;
+    }
+}
