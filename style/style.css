@@ -312,11 +312,15 @@ footer .line-footer p a{
     }
 
     .sobre .txt-sobre h2{
-        font-size: 34px;
+        font-size: 30px;
         line-height: 34px;
         text-align: center;
     }
 
+     .sobre .txt-sobre p{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
     .btn-social{
         text-align: center;
     }
