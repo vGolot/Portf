@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #000;
@@ -69,9 +70,9 @@ header a{
 }
 
 header a:hover{
-    color: #C7B2FF;
+    color: #7924E0;
     transform: scale(1.1);
-    transition: 1s;
+    transition: 0.6s;
 }
 
 header a:not(:hover) {
@@ -156,6 +157,8 @@ section.especialidades .flex{
     width: 600px;
     height: auto;
     border-radius: 50%;
+    margin-bottom: 80px;
+    margin-top: 20px;
 }
 section.sobre .flex{
     align-items: center;
@@ -298,7 +301,7 @@ footer .line-footer p a{
     .section.topo-do-site{
         padding: 20px 8%;
     }
-     .topo-do-site h1{
+    .topo-do-site h1{
         font-size: 30px;
         margin: 0 5px;
     }
@@ -311,6 +314,7 @@ footer .line-footer p a{
         width: 100%;
     }
 
+
     /*  Habilidades   */
     .section.sobre{
     padding: 40px 8%;
@@ -322,8 +326,7 @@ footer .line-footer p a{
         line-height: 34px;
         text-align: center;
     }
-
-     .sobre .txt-sobre p{
+    .sobre .txt-sobre p{
         margin-left: 40px;
         margin-right: 40px;
     }
@@ -354,3 +357,4 @@ footer .line-footer p a{
         text-align: center;
     }
 }
+
